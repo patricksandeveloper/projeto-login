@@ -28,6 +28,8 @@ body, html {
     background-color: #5f2c82;
     height: 100dvh;
     width: 100vw;
+    overflow: hidden;
+    position: fixed;
 }
 
 main {
@@ -35,7 +37,6 @@ main {
     height: 100dvh;
     width: 100vw;
     overflow: hidden;
-    position: fixed;
 }
 
 section#login {
