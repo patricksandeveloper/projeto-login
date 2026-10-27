@@ -48,7 +48,7 @@ section#login {
 
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 525px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.462);
 
@@ -63,16 +63,68 @@ section#login > div#imagem {
     height: 200px;
 }
 
-section#login > div#form {
+section#login > div#formu {
     display: block;
     padding: 10px;
 }
 
-div#form > h1 {
+div#formu > h1 {
     text-align: center;
     margin-bottom: 10px;
 }
 
-div#form > p {
+div#formu > p {
+    font-size: 0.8em;
+}
+
+form label {
+    display: none;
+}
+
+form > div.campo {
+    background-color: #5f2c82;
+    width: 100%;
+    display: block;
+    height: 40px;
+    border-radius: 7px;
+    margin: 5px 0px;
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #545757;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover {
+    background-color: #3ac404;
+}
+
+form > a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    padding-top: 5px;
+    margin-top: 5px;
+    background-color: #5457575a;
+    color: rgb(0, 0, 0);
+    border: 1px solid #545757;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+form > a.botao:hover {
+    background-color: #3ac404;
+}
+
+form > a.botao > i {
     font-size: 0.8em;
 }
